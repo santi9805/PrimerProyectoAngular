@@ -1,23 +1,6 @@
-<div class="row">
-    <div class="col">
-        <h1>*ngIf</h1>
-        <hr>
-        <div *ngIf="mostrar" class="card bg-primary text-white mb-3" style="width: 100%;">
-            <div class="card-body">
-                <h5 class="card-title">{{frase.autor}}</h5>
-                <p class="card-text">{{frase.mensaje}}</p>
-            </div>
-        </div>
-        <button (click)="mostrar=!mostrar" class="btn btn-outline-primary btn-block">Mostrar/Ocultar</button>
-    </div>
-    <div class="col">
-        <h1>*ngFor</h1>
-        <hr>
-        <ul class="list-group">
-            <li *ngFor="let c of personajes; let i = index" class="list-group-item">
-                {{i+1}}={{c}}
-            </li>
-        </ul>
-
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Comic App</h1>
+        <p class="lead">Esta es una app de comics.</p>
     </div>
 </div>
