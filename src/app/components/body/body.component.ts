@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
+  mostrar = true;
+  personajes: string[] = ['Batman', 'Venom', 'Spiderman', 'Dr Octopus','Flash']
+  frase: any = {
+    mensaje: 'Un gran poder requiere una gran responsabilidad',
+    autor: 'Be Parker'
+  };
+
   constructor() { }
 
   ngOnInit() {
